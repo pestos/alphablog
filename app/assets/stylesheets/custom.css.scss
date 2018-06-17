@@ -24,4 +24,18 @@ $navbar-default-bg : #F3F781;
     
 }
 
+.jumbotron {
+    
+    background-image: asset-url('Controleauto.jpeg');
+    background-size: cover;
+    height: 500px;
+}
 
+footer {
+    
+    margin-top: 45px;
+    padding-top: 5px;
+    border-top: 1px solid #333333;
+    color: #333333;
+    
+}
