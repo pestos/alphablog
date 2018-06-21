@@ -1,0 +1,19 @@
+<h1>Simulateur</h1>
+   
+<% @quizzes.each do |f| %>
+ <div class="panel panel-primary"><%= f.question %></div>
+
+<button onclick="myFunction()">Click me</button>
+
+<p id="demo"></p>
+
+<script>
+function myFunction() {
+  document.getElementById("demo").innerHTML = "<%= f.option1 %>";
+}
+</script>
+   
+
+<%end%>
+
+test
